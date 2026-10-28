@@ -12,4 +12,6 @@ while True:
             
 print(factor(firstValueToFactorise))
 print(factor(secondValueToFactorise))
-print(greatestCommonDivider(factor(firstValueToFactorise), factor(secondValueToFactorise)))
+listOfprimeFactorsFirstValue = factor(firstValueToFactorise)
+listOfprimeFactorsSecondValue = factor(secondValueToFactorise)
+print(greatestCommonDivider(listOfprimeFactorsFirstValue, listOfprimeFactorsSecondValue))
